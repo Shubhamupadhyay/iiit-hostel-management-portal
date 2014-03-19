@@ -1,0 +1,187 @@
+body {
+	background-color:#FFFFFF;
+	font: normal small Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:justify;
+	color: #588ED4;
+	margin-top:40px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+.logo{
+	font-size:32px;
+	color:#9EC33F;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:left;
+	margin-right:0px;
+	padding-right:0px;
+}
+.logo2{
+	text-transform: none;
+	font-size:32px;
+	color:#588ED4;
+	font-weight:bold;
+	text-decoration:none;
+}
+.leftlinks{
+	background-image:url(images/blue_bg.gif);
+	background-repeat:no-repeat;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+	height:32px;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+.leftlinks a:hover{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+	height:32px;
+	text-align:left;
+	padding-left:12px;
+	vertical-align:middle;
+}
+.leftlinks a{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#4C4A4A;
+	height:32px;
+	text-align:left;
+	padding-left:5px;
+	vertical-align:middle;
+}
+.tag {
+	margin: 0;
+	padding:3px 140px 20px;
+	text-transform: uppercase;
+	font-size:14px;
+	font-weight:bold;
+	color:#C7C7C7;
+    text-decoration:none;
+}
+.leftbg{
+	background-image:url(images/main_left.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	width:19px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+#leftbg{
+	background-image:url(images/main_left1.jpg);
+	background-repeat:no-repeat;
+	width:19px;
+	bottom:0px;
+	height:334px;
+	position:relative;
+}
+.rightbg{
+	background-image:url(images/main_right.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	width:19px;
+}
+#rightbg{
+	background-image:url(images/main_right1.jpg);
+	background-repeat:no-repeat;
+	width:19px;
+	height:334px;
+	bottom:0px;
+	position:relative;
+}
+.bg{
+	background-image:url(images/main_bg.jpg);
+	background-repeat:repeat-x;
+	vertical-align:top;
+}
+#bg{
+	background-image:url(images/main_bg1.jpg);
+	background-repeat:repeat-x;
+	vertical-align:bottom;
+}
+a{
+color:#9EC33F;
+text-decoration:none;
+}
+a:hover{
+color:#000000;
+text-decoration:none;
+}
+.welcome
+{font-size:16px;
+font-weight:bold;
+color:#FFFFFF;
+padding:5px 5px 5px;
+background-color:#6F5B28;
+}
+#footer{
+width:100%;
+height:25px;
+background-image:url(images/main_bg1.jpg);
+background-repeat:repeat-x;
+background-position:bottom;
+position:relative;
+bottom:0px;
+}
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+.rightlinks li{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	color:#C7C7C7;
+	text-align:left;
+	list-style-type:none;
+	text-decoration:none;
+	margin-bottom:5px;
+	padding-right:10px;
+	float:left;
+	}
+	UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px 0px 0px; PADDING-TOP: 0px
+    }
+	#rightlinks{
+	font-family:tahoma;
+	font-size:16px;
+	color:#588ED4;
+	font-weight:bold;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:4px;
+	border-bottom:#C2C2C2 1px dashed;
+	}

@@ -1,0 +1,65 @@
+<?php
+
+// Inialize session
+session_start();
+
+// Check, if user is already login, then jump to secured page
+if (isset($_SESSION['username'])) {
+header('Location: main.html');
+}
+
+?>
+<html>
+
+<head>
+<title>LOGIN Page</title>
+</head>
+
+<body>
+
+<style>
+{ margin: 0; padding:0;}
+html {
+		background: url(3.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+</style>
+
+<script type="text/javascript">
+    function showme(id) {
+        var divid = document.getElementById(id);
+        if (divid.style.display == 'block') divid.style.display = 'none';
+        else divid.style.display = 'block';
+    }
+</script>
+
+<h3 align="center">User Login</h3>
+
+<table border="0" align="center" width="400">
+<form method="POST" action="loginproc.php">
+<tr><td>Username<td>:</td></td><td><input type="text" name="username" size="20"></td></tr>
+<tr><td>Password<td>:</td></td><td><input type="password" name="password" size="20"></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td><input type="submit" value="Login"></td></tr>
+<tr>
+	<td>
+	<a onclick="showme('w1');" href="#">Register</a>
+	<div id="w1" style="display:none;">
+	<table width="400" align="center" border="0">
+	<form method="POST" action="register.php">
+	<tr><td>Type a Username</td><td>:</td><td><input type="text" name="r_username" size="20"></td></tr>
+	<tr><td>Type a Password</td><td>:</td><td><input type="password" name="r_password" size="20"></td></tr>
+	<tr><td>&nbsp;</td><td>&nbsp;</td><td><input type="submit" value="submit"></td></tr>
+	</form>
+	</table>
+	</div>
+	</td>
+</tr>
+</form>
+</table>
+
+</body>
+
+</html>

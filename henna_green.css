@@ -1,0 +1,63 @@
+body {
+	background-image:url(images/bg.gif);
+	font-family:arial;
+	color: #FFFFFF;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	font-size:12px;
+	margin-bottom:0px;
+}
+.logo{
+	font-size:35px;
+	font-family:arial;
+	color:#000033;
+	padding-left:15px;
+}
+.logo2{
+	font-size:35px;
+	font-family:"arial";
+	color:#000033;
+	padding-left:15px;
+}
+.border
+{border:5px solid #FFFFFF;
+background-color:#65732D;
+}
+a{
+color:#FFFFFF;
+text-decoration:none;
+}
+a:hover{
+color:#000000;
+text-decoration:none;
+}
+.links a{
+text-decoration:none;
+color:#000000;
+font-size:12px;
+}
+.links a:hover{
+text-decoration:underline;
+color:#7E6D41;
+font-size:12px;
+}
+.quick{
+font-weight:bold;
+font-size:18px;
+padding-left:10px;
+}
+.copy{
+color:#000000;
+padding-left:10px;
+}
+.copy a{
+color:#000000;
+font-weight:bold;
+text-decoration:none;
+}
+.copy a:hover{
+color:#000000;
+font-weight:bold;
+text-decoration:underline;
+}
